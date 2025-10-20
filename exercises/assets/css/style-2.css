@@ -101,11 +101,13 @@ body {
 
 h1 {
     font-family: var(--font-serif);
+    text-align: center;
     font-size: var(--fs-xxxl);
     margin-top: 32px;
     line-height: 1.2;
     letter-spacing: -3px;
     font-size: calc(var(--fs-xxxl)*1.4);
+    
 }
 
 h2 {
