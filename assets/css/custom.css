@@ -29,6 +29,14 @@ nav .brand {
     margin-bottom: 3px;
 }
 
+.nav-toggle {
+    position: static;
+}
+
+ul.links-wrapper {
+    margin-top: 20px;
+}
+
 .theme-dark #email-form {
     background-color: #0A0A0B;
 }
@@ -88,6 +96,17 @@ nav.theme-dark ul.links-wrapper li a:link,
 nav.theme-dark ul.links-wrapper li a:visited {
     color: #C0C0C0;
 }
+
+nav.theme-dark .nav-toggle {
+    background: #0A0A0B;
+}
+
+nav.theme-dark .nav-toggle .bar-1, nav.theme-dark .nav-toggle .bar-2, nav.theme-dark .nav-toggle .bar-3 {
+    background: #C0C0C0;
+}
+
+
+
 
 
 
