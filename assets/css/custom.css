@@ -19,9 +19,8 @@ footer.theme-dark {
     background-color: #0A0A0B
 }
 
-nav ul.links-wrapper {
-    padding-bottom: 10px;
-
+.nav-toggle {
+    position: static;
 }
 
 nav .brand {
@@ -29,12 +28,10 @@ nav .brand {
     margin-bottom: 3px;
 }
 
-.nav-toggle {
-    position: static;
-}
+
 
 ul.links-wrapper {
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .theme-dark #email-form {
