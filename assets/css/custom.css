@@ -1,23 +1,206 @@
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active {
+    background-color: #046C4E
+}
 
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #363536 }
+header.theme-dark {
+    background-color: #0A0A0B
+}
 
-header.theme-dark   { background-color: #0f172a }
+header.theme-dark h1 {
+    color: #046C4E
+}
 
-header.theme-dark  h1 { color: var(--sky-400); }
+section.theme-dark {
+    background-color: #151515
+}
 
-section.theme-dark   { background-color: #0f172a }
+footer.theme-dark {
+    background-color: #0A0A0B
+}
 
-footer.theme-dark   { background-color: #0f172a }
+nav ul.links-wrapper {
+    padding-bottom: 10px;
+
+}
+
+nav .brand {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.theme-dark #email-form {
+    background-color: #0A0A0B;
+}
+
+.theme-dark #email-form label {
+    color: #C0C0C0;
+}
+
+#email-form [type="text"],
+#email-form [type="email"],
+#email-form textarea {
+    background-color: #C0C0C0;
+}
+
+.theme-dark #btn-submit.btn-solid {
+    color: #0A0A0B;
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+
+.theme-dark #btn-submit.btn-solid:focus,
+.theme-dark #btn-submit.btn-solid:hover,
+.theme-dark #btn-submit.btn-solid:active {
+    color: #0A0A0B;
+    background-color: #6a9589;
+    border-color: #6a9589;
+}
 
 
 
-header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+
+
+
+.theme-dark h1,
+.theme-dark h2,
+.theme-dark h3,
+.theme-dark p,
+.theme-dark li {
+    color: #C0C0C0;
+}
+
+.theme-dark .col-1 h3.in-col-1,
+.theme-dark .col-1 h3 {
+    color: #C0C0C0;
+}
+
+footer.theme-dark>h3 {
+    color: #C0C0C0;
+}
+
+footer.theme-dark>h2 {
+    color: #C0C0C0;
+}
+
+nav.theme-dark ul.links-wrapper li a:link,
+nav.theme-dark ul.links-wrapper li a:visited {
+    color: #C0C0C0;
+}
+
+
+
+nav.theme-dark ul.links-wrapper li a.btn-solid:link,
+nav.theme-dark ul.links-wrapper li a.btn-solid:visited {
+    color: #0A0A0B;
+    background-color: #C0C0C0;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #C0C0C0;
+    border-image: initial;
+}
+
+nav.theme-dark ul.links-wrapper li a.btn-solid:focus,
+nav.theme-dark ul.links-wrapper li a.btn-solid:hover,
+nav.theme-dark ul.links-wrapper li a.btn-solid:active {
+    background-color: #6a9589;
+    border-color: #6a9589;
+}
+
+.theme-dark .btn-solid:link,
+.theme-dark .btn-solid:visited {
+    color: #0A0A0B;
+    background-color: #C0C0C0;
+    border-color: #C0C0C0;
+}
+
+.theme-dark .btn-solid:focus,
+.theme-dark .btn-solid:hover,
+.theme-dark .btn-solid:active {
+    background-color: #6a9589;
+    border-color: #6a9589;
+}
+
+.theme-dark .btn-outline:link,
+.theme-dark .btn-outline:visited {
+    color: #C0C0C0;
+    background-color: transparent;
+    border-color: #C0C0C0;
+}
+
+.theme-dark .btn-outline:focus,
+.theme-dark .btn-outline:hover,
+.theme-dark .btn-outline:active {
+    color: #0A0A0B;
+    background-color: #6a9589;
+    border-color: #6a9589;
+}
+
+
+
+
+.theme-dark a:not(.btn):link,
+.theme-dark a:not(.btn):visited {
+    color: #046C4E;
+
+}
+
+.theme-dark a:not(.btn):hover,
+.theme-dark a:not(.btn):active {
+    color: #6a9589;
+
+}
+
+footer.theme-dark ul.footer-links li a:link,
+footer.theme-dark ul.footer-links li a:visited {
+    color: #046C4E;
+    text-decoration-color: #046C4E;
+}
+
+footer.theme-dark ul.footer-links li a:hover,
+footer.theme-dark ul.footer-links li a:active {
+    color: #6a9589;
+    text-decoration-color: #6a9589;
+}
+
+
+footer.theme-dark ul.footer-icons li a:link,
+footer.theme-dark ul.footer-icons li a:visited {
+    color: #046C4E !important;
+    text-decoration-color: #046C4E;
+}
+
+footer.theme-dark ul.footer-icons li a:hover,
+footer.theme-dark ul.footer-icons li a:active {
+    color: #6a9589;
+    text-decoration-color: #6a9589;
+}
+
+footer.theme-dark ul.footer-icons li a:link i,
+footer.theme-dark ul.footer-icons li a:visited i {
+    color: #046C4E;
+}
+
+
+footer.theme-dark ul.footer-icons li a:hover i,
+footer.theme-dark ul.footer-icons li a:active i {
+    color: #6a9589;
+}
+
+
+header .col-text h2,
+.col-1>h3 {
+    line-height: 1.8
+}
 
 .gradient-text {
     background: linear-gradient(to right,
-        var(--rose-400), /* Start color */
-        var(--purple-600) /* End color */
-    );
+            var(--rose-400),
+            /* Start color */
+            var(--purple-600)
+            /* End color */
+        );
 
     /* Clip the background to the text's shape */
     -webkit-background-clip: text;

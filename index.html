@@ -24,6 +24,19 @@
         gtag('config', 'G-J0FCZDF478');
     </script>
 
+    <!-- Begin Inspectlet Asynchronous Code -->
+    <script type="text/javascript">
+        (function () {
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 1768096612]);
+            var ldinsp = function () {
+                if (typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1768096612&r=' + Math.floor(new Date().getTime() / 3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x);
+            };
+            setTimeout(ldinsp, 0);
+        })();
+    </script>
+    <!-- End Inspectlet Asynchronous Code -->
+
     <!-- Preload large image -->
 
     <!-- Stylesheets -->
@@ -31,6 +44,7 @@
     <link rel="stylesheet" href="assets/css/custom.css" />
 
     <!-- Google Fonts -->
+
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -47,6 +61,10 @@
         }
     </style>
 
+
+    <!-- Styles for Cookie Consent Popup Message  -->
+    <link href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" rel="stylesheet">
+
 </head>
 
 
@@ -56,7 +74,7 @@
     <nav class="theme-dark">
         <div class="container-menu">
             <a href="#" class="brand">
-                <img src="assets/img/website-logo-sample.png" style="height: 30px; width:auto;" alt="Sample website logo">
+                <img src="assets/img/Logo.png" style="height: 60px; width:auto;" alt="Armero logo">
             </a>
 
             <div class="container-menu-links">
@@ -83,7 +101,6 @@
     <header class="theme-dark cols-2-half text-center-mobile">
 
         <div class="col-2 col-text">
-            <div class="badge">WELCOME</div>
             <h1>Oleg Dergunov</h1>
             <h2>I am a multidisciplinary creator who blends analytical thinking with artistic vision to build compelling
                 digital narratives.</h2>
@@ -194,6 +211,27 @@
     </footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+    
+    <!-- JavaScript for Cookie Consent Popup Message -->
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#0A0A0B",
+                "color": "C0C0C0"
+            },
+            "button": {
+                "background": "#046C4E",
+                "color": "C0C0C0"
+            }
+        },
+        "content": {
+            "href": "https://oleg-dergunov.github.io/privacy.html"
+        }
+    });
+    </script>
 
 </body>
 
