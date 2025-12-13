@@ -1,6 +1,9 @@
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active {
-    background-color: #046C4E
+    background-color: #046C4E;
+}
+nav.theme-dark ul.links-wrapper.active {
+    top:100px;
 }
 
 header.theme-dark {
