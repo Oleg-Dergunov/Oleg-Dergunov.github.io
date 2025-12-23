@@ -1,3 +1,5 @@
+/* Oleg Dergunov 76522 */
+
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active {
     background-color: #046C4E;
@@ -64,6 +66,35 @@ ul.links-wrapper {
     background-color: #6a9589;
     border-color: #6a9589;
 }
+
+
+/*Fonts*/
+:root {
+    --font-accent: 'Poppins', sans-serif;      
+    --font-main: 'Geist Sans', sans-serif;    
+}
+
+body {
+    font-family: var(--font-main);
+}
+
+h1 {
+    font-family: var(--font-accent);
+}
+
+h2, h3 {
+    font-family: var(--font-main);
+}
+
+.btn,
+.btn span {
+    font-family: var(--font-main) !important;
+}
+
+
+
+
+
 
 
 
